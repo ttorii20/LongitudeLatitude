@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCCAB0711F1CB3A40045E030 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCAB0701F1CB3A40045E030 /* AppDelegate.swift */; };
+		CCCAB0731F1CB3A40045E030 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCAB0721F1CB3A40045E030 /* ViewController.swift */; };
+		CCCAB0761F1CB3A40045E030 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCCAB0741F1CB3A40045E030 /* Main.storyboard */; };
+		CCCAB0781F1CB3A40045E030 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCCAB0771F1CB3A40045E030 /* Assets.xcassets */; };
+		CCCAB07B1F1CB3A40045E030 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCCAB0791F1CB3A40045E030 /* LaunchScreen.storyboard */; };
+		CCCAB0861F1CB3A50045E030 /* LongitudeLatitudeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCAB0851F1CB3A50045E030 /* LongitudeLatitudeTests.swift */; };
+		CCCAB0911F1CB3A50045E030 /* LongitudeLatitudeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCAB0901F1CB3A50045E030 /* LongitudeLatitudeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCCAB0821F1CB3A50045E030 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCCAB0651F1CB3A40045E030 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCCAB06C1F1CB3A40045E030;
+			remoteInfo = LongitudeLatitude;
+		};
+		CCCAB08D1F1CB3A50045E030 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCCAB0651F1CB3A40045E030 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCCAB06C1F1CB3A40045E030;
+			remoteInfo = LongitudeLatitude;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCCAB06D1F1CB3A40045E030 /* LongitudeLatitude.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LongitudeLatitude.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCCAB0701F1CB3A40045E030 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCCAB0721F1CB3A40045E030 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCCAB0751F1CB3A40045E030 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCCAB0771F1CB3A40045E030 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCCAB07A1F1CB3A40045E030 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCCAB07C1F1CB3A40045E030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCCAB0811F1CB3A50045E030 /* LongitudeLatitudeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LongitudeLatitudeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCCAB0851F1CB3A50045E030 /* LongitudeLatitudeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongitudeLatitudeTests.swift; sourceTree = "<group>"; };
+		CCCAB0871F1CB3A50045E030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCCAB08C1F1CB3A50045E030 /* LongitudeLatitudeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LongitudeLatitudeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCCAB0901F1CB3A50045E030 /* LongitudeLatitudeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongitudeLatitudeUITests.swift; sourceTree = "<group>"; };
+		CCCAB0921F1CB3A50045E030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCCAB06A1F1CB3A40045E030 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCCAB07E1F1CB3A50045E030 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCCAB0891F1CB3A50045E030 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCCAB0641F1CB3A40045E030 = {
+			isa = PBXGroup;
+			children = (
+				CCCAB06F1F1CB3A40045E030 /* LongitudeLatitude */,
+				CCCAB0841F1CB3A50045E030 /* LongitudeLatitudeTests */,
+				CCCAB08F1F1CB3A50045E030 /* LongitudeLatitudeUITests */,
+				CCCAB06E1F1CB3A40045E030 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCCAB06E1F1CB3A40045E030 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCCAB06D1F1CB3A40045E030 /* LongitudeLatitude.app */,
+				CCCAB0811F1CB3A50045E030 /* LongitudeLatitudeTests.xctest */,
+				CCCAB08C1F1CB3A50045E030 /* LongitudeLatitudeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCCAB06F1F1CB3A40045E030 /* LongitudeLatitude */ = {
+			isa = PBXGroup;
+			children = (
+				CCCAB0701F1CB3A40045E030 /* AppDelegate.swift */,
+				CCCAB0721F1CB3A40045E030 /* ViewController.swift */,
+				CCCAB0741F1CB3A40045E030 /* Main.storyboard */,
+				CCCAB0771F1CB3A40045E030 /* Assets.xcassets */,
+				CCCAB0791F1CB3A40045E030 /* LaunchScreen.storyboard */,
+				CCCAB07C1F1CB3A40045E030 /* Info.plist */,
+			);
+			path = LongitudeLatitude;
+			sourceTree = "<group>";
+		};
+		CCCAB0841F1CB3A50045E030 /* LongitudeLatitudeTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCCAB0851F1CB3A50045E030 /* LongitudeLatitudeTests.swift */,
+				CCCAB0871F1CB3A50045E030 /* Info.plist */,
+			);
+			path = LongitudeLatitudeTests;
+			sourceTree = "<group>";
+		};
+		CCCAB08F1F1CB3A50045E030 /* LongitudeLatitudeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCCAB0901F1CB3A50045E030 /* LongitudeLatitudeUITests.swift */,
+				CCCAB0921F1CB3A50045E030 /* Info.plist */,
+			);
+			path = LongitudeLatitudeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCCAB06C1F1CB3A40045E030 /* LongitudeLatitude */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCCAB0951F1CB3A50045E030 /* Build configuration list for PBXNativeTarget "LongitudeLatitude" */;
+			buildPhases = (
+				CCCAB0691F1CB3A40045E030 /* Sources */,
+				CCCAB06A1F1CB3A40045E030 /* Frameworks */,
+				CCCAB06B1F1CB3A40045E030 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LongitudeLatitude;
+			productName = LongitudeLatitude;
+			productReference = CCCAB06D1F1CB3A40045E030 /* LongitudeLatitude.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCCAB0801F1CB3A50045E030 /* LongitudeLatitudeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCCAB0981F1CB3A50045E030 /* Build configuration list for PBXNativeTarget "LongitudeLatitudeTests" */;
+			buildPhases = (
+				CCCAB07D1F1CB3A50045E030 /* Sources */,
+				CCCAB07E1F1CB3A50045E030 /* Frameworks */,
+				CCCAB07F1F1CB3A50045E030 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCCAB0831F1CB3A50045E030 /* PBXTargetDependency */,
+			);
+			name = LongitudeLatitudeTests;
+			productName = LongitudeLatitudeTests;
+			productReference = CCCAB0811F1CB3A50045E030 /* LongitudeLatitudeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCCAB08B1F1CB3A50045E030 /* LongitudeLatitudeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCCAB09B1F1CB3A50045E030 /* Build configuration list for PBXNativeTarget "LongitudeLatitudeUITests" */;
+			buildPhases = (
+				CCCAB0881F1CB3A50045E030 /* Sources */,
+				CCCAB0891F1CB3A50045E030 /* Frameworks */,
+				CCCAB08A1F1CB3A50045E030 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCCAB08E1F1CB3A50045E030 /* PBXTargetDependency */,
+			);
+			name = LongitudeLatitudeUITests;
+			productName = LongitudeLatitudeUITests;
+			productReference = CCCAB08C1F1CB3A50045E030 /* LongitudeLatitudeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCCAB0651F1CB3A40045E030 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "鳥居隆弘";
+				TargetAttributes = {
+					CCCAB06C1F1CB3A40045E030 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = DJMA973CXQ;
+						ProvisioningStyle = Automatic;
+					};
+					CCCAB0801F1CB3A50045E030 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = DJMA973CXQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CCCAB06C1F1CB3A40045E030;
+					};
+					CCCAB08B1F1CB3A50045E030 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = DJMA973CXQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CCCAB06C1F1CB3A40045E030;
+					};
+				};
+			};
+			buildConfigurationList = CCCAB0681F1CB3A40045E030 /* Build configuration list for PBXProject "LongitudeLatitude" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCCAB0641F1CB3A40045E030;
+			productRefGroup = CCCAB06E1F1CB3A40045E030 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCCAB06C1F1CB3A40045E030 /* LongitudeLatitude */,
+				CCCAB0801F1CB3A50045E030 /* LongitudeLatitudeTests */,
+				CCCAB08B1F1CB3A50045E030 /* LongitudeLatitudeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCCAB06B1F1CB3A40045E030 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCCAB07B1F1CB3A40045E030 /* LaunchScreen.storyboard in Resources */,
+				CCCAB0781F1CB3A40045E030 /* Assets.xcassets in Resources */,
+				CCCAB0761F1CB3A40045E030 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCCAB07F1F1CB3A50045E030 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCCAB08A1F1CB3A50045E030 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCCAB0691F1CB3A40045E030 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCCAB0731F1CB3A40045E030 /* ViewController.swift in Sources */,
+				CCCAB0711F1CB3A40045E030 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCCAB07D1F1CB3A50045E030 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCCAB0861F1CB3A50045E030 /* LongitudeLatitudeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCCAB0881F1CB3A50045E030 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCCAB0911F1CB3A50045E030 /* LongitudeLatitudeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCCAB0831F1CB3A50045E030 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCCAB06C1F1CB3A40045E030 /* LongitudeLatitude */;
+			targetProxy = CCCAB0821F1CB3A50045E030 /* PBXContainerItemProxy */;
+		};
+		CCCAB08E1F1CB3A50045E030 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCCAB06C1F1CB3A40045E030 /* LongitudeLatitude */;
+			targetProxy = CCCAB08D1F1CB3A50045E030 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCCAB0741F1CB3A40045E030 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCCAB0751F1CB3A40045E030 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCCAB0791F1CB3A40045E030 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCCAB07A1F1CB3A40045E030 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCCAB0931F1CB3A50045E030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCCAB0941F1CB3A50045E030 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCCAB0961F1CB3A50045E030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DJMA973CXQ;
+				INFOPLIST_FILE = LongitudeLatitude/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = taka.inc.LongitudeLatitude;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CCCAB0971F1CB3A50045E030 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DJMA973CXQ;
+				INFOPLIST_FILE = LongitudeLatitude/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = taka.inc.LongitudeLatitude;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CCCAB0991F1CB3A50045E030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DJMA973CXQ;
+				INFOPLIST_FILE = LongitudeLatitudeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = taka.inc.LongitudeLatitudeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LongitudeLatitude.app/LongitudeLatitude";
+			};
+			name = Debug;
+		};
+		CCCAB09A1F1CB3A50045E030 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DJMA973CXQ;
+				INFOPLIST_FILE = LongitudeLatitudeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = taka.inc.LongitudeLatitudeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LongitudeLatitude.app/LongitudeLatitude";
+			};
+			name = Release;
+		};
+		CCCAB09C1F1CB3A50045E030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = DJMA973CXQ;
+				INFOPLIST_FILE = LongitudeLatitudeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = taka.inc.LongitudeLatitudeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LongitudeLatitude;
+			};
+			name = Debug;
+		};
+		CCCAB09D1F1CB3A50045E030 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = DJMA973CXQ;
+				INFOPLIST_FILE = LongitudeLatitudeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = taka.inc.LongitudeLatitudeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LongitudeLatitude;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCCAB0681F1CB3A40045E030 /* Build configuration list for PBXProject "LongitudeLatitude" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCCAB0931F1CB3A50045E030 /* Debug */,
+				CCCAB0941F1CB3A50045E030 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCCAB0951F1CB3A50045E030 /* Build configuration list for PBXNativeTarget "LongitudeLatitude" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCCAB0961F1CB3A50045E030 /* Debug */,
+				CCCAB0971F1CB3A50045E030 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCCAB0981F1CB3A50045E030 /* Build configuration list for PBXNativeTarget "LongitudeLatitudeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCCAB0991F1CB3A50045E030 /* Debug */,
+				CCCAB09A1F1CB3A50045E030 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCCAB09B1F1CB3A50045E030 /* Build configuration list for PBXNativeTarget "LongitudeLatitudeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCCAB09C1F1CB3A50045E030 /* Debug */,
+				CCCAB09D1F1CB3A50045E030 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCCAB0651F1CB3A40045E030 /* Project object */;
+}
