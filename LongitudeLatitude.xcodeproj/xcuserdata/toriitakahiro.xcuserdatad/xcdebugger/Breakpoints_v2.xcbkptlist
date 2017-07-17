@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LongitudeLatitude/ViewController.swift"
-            timestampString = "522002003.73156"
+            timestampString = "522023754.997759"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "130"
-            endingLineNumber = "130">
+            startingLineNumber = "131"
+            endingLineNumber = "131">
             <Locations>
                <Location
                   shouldBeEnabled = "Yes"

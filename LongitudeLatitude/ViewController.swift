@@ -49,6 +49,7 @@ class ViewController: UIViewController {
         
         dist_1.text = dist(a:A , b:B).description
         dist_2.text = dist2(a:A , b:B).description
+        print( dist3(a:A , b:B) / 1000)
         rad_1.text = rad(a:A , b:B).description
         
         var counter = 0
