@@ -8,9 +8,10 @@
 
 import UIKit
 import Foundation
+import CoreLocation
 
 class ViewController: UIViewController {
-
+    
     
     @IBOutlet weak var lat_A: UITextField!
     @IBOutlet weak var lat_B: UITextField!
@@ -35,7 +36,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -56,14 +57,14 @@ class ViewController: UIViewController {
         }else{
             counter = Int(calc_times.text!)!
         }
-
+        
         let start1 = Date()
         for _ in 0..<counter {
             dist(a:A , b:B)
         }
         let elapsed1 = NSDate().timeIntervalSince(start1)
         print(elapsed1)
-
+        
         let start2 = Date()
         for _ in 0..<counter {
             dist2(a:A , b:B)
@@ -71,9 +72,16 @@ class ViewController: UIViewController {
         let elapsed2 = NSDate().timeIntervalSince(start2)
         print(elapsed2)
         
+        let start3 = Date()
+        for _ in 0..<counter {
+            dist3(a:A , b:B)
+        }
+        let elapsed3 = NSDate().timeIntervalSince(start3)
+        print(elapsed3)
+        
         calcTime_1.text = elapsed1.description
         calcTime_2.text = elapsed2.description
-
+        
     }
 }
 
@@ -94,12 +102,25 @@ extension ViewController{
         return R * acos( (sin( a.y ) * sin(b.y )) + ( cos( a.y ) * cos( b.y ) * cos( b.x  - a.x ) )  )
     }
     
+    func dist3(a:Point,b:Point ) -> Double{
+        /*
+         CoreLocationライブラリ
+         */
+        let pointA: CLLocation = CLLocation(latitude: a.lat , longitude: a.lon )
+        let pointB: CLLocation = CLLocation(latitude: b.lat , longitude: b.lon )
+        return pointB.distance(from: pointA)
+        
+    }
+    
+    
     func rad(a:Point,b:Point ) -> Double{
         /*
          atan2(sin(x2-x1),cos(y1)tan(y2)-sin(y1)cos(x2-x1))
          */
         return (180/Double.pi) * atan2( sin( b.x - a.x ), cos(a.y) * tan(b.y) - sin( a.y ) * cos(b.x - a.x) )
     }
+    
+    
 }
 
 
